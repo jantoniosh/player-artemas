@@ -1,0 +1,28 @@
+#player {
+    width: 100%;
+    display: flex;
+}
+
+#player audio {
+    display: none;
+}
+
+#player #playbutton {
+    display: block;
+}
+
+#player.on #playbutton {
+    display: none;
+}
+
+#player #pausebutton {
+    display: none;
+}
+
+#player.on #pausebutton {
+    display: block;
+}
+
+#play {
+    cursor: pointer;
+}
